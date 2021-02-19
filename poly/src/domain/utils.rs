@@ -188,7 +188,7 @@ pub(crate) fn parallel_fft<T: DomainCoeff<F>, F: FftField>(
 pub struct Elements<F: FftField> {
     pub(crate) cur_elem: F,
     pub(crate) cur_pow: u64,
-    pub(crate) size: u64,
+    pub size: u64,
     pub(crate) group_gen: F,
 }
 
